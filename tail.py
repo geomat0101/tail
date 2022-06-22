@@ -54,7 +54,7 @@ class Tail():
             if offset > 0 and offset < step:
                 # approaching beginning of buffer
                 # make sure to process remaining bytes 0 <= n < step
-                step = step - offset
+                step = offset
                 offset = 0
             else:
                 if offset == 0:
