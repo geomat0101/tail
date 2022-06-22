@@ -1,4 +1,14 @@
 
+Current status:
+These basic invocation forms are currently supported
+ * tail.py FILE
+ * tail.py -NUM FILE
+ * cat FILE | tail.py
+ * cat FILE | tail.py -NUM -
+
+
+
+
 man7.org > Linux > man-pages
 
 Linux/UNIX system programming training
